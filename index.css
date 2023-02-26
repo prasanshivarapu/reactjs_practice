@@ -1,0 +1,76 @@
+/* Write your code here. */
+.bg1 {
+  background-color: lightgoldenrodyellow;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: black;
+}
+.subheading {
+  background-color: aqua;
+  margin: 5px;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.subheading1 {
+  background-color: lightgreen;
+  margin: 5px;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.subheading2 {
+  background-color: rgb(167, 167, 36);
+  margin: 5px;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.subheading3 {
+  background-color: red;
+  margin: 5px;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.bg2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 25px;
+}
+.heading3 {
+  margin-left: 13px;
+}
+.mainhead {
+  padding: 10px;
+}
+.head1 {
+  border-radius: 25px;
+}
+@media (min-width: 576px) {
+  .heading {
+    color: gold;
+  }
+}
+@media (max-width: 576px) {
+  .heading {
+    color: brown;
+  }
+}
